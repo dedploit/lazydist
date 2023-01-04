@@ -20,6 +20,6 @@ wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
 
 #add lazydist lazy script to /bin
 
-wget -P /bin "url"
+wget -P /bin https://github.com/dedploit/lazydist/blob/master/lazydist-src/lazydist
 
 chmod +x /bin/lazydist
