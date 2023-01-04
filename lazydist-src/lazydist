@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Check if the user is root
+if [ "$(id -u)" != "0" ]; then
+   echo "Run this script as a root user" 1>&2
+   exit 1
+fi
+
+# Check if the user provided a package name
+if [ $# -eq 0 ]
+then
+    echo "No package name provided. Exiting."
+    exit 1
+fi
+
+apt install -t kali-rolling $1
