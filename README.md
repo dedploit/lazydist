@@ -1,13 +1,13 @@
 # lazydist
 
-Automation Script to install specific files need to install tools from kali-linux to fresh debian based system.
+Automation Script to tools from kali-linux to fresh debian based system.
 
 Here the script makes it easy to install tools without messing your distribution completely by upgrading from kali repo , mean while you can
 install the tools individualy even without typing the complete code everytime.
 
 # usage
 
-Script can invoked and can use from anywhere from the terminal by specifying the package you need to install
+Script can be invoked and can use from anywhere from the terminal by specifying the package you need to install
 
 ```
 lazydist package_name
