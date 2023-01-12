@@ -26,3 +26,6 @@ cp $current_dir/lazydist-src/lazydist /bin
 
 
 chmod +x /bin/lazydist
+
+#auto update
+apt update
